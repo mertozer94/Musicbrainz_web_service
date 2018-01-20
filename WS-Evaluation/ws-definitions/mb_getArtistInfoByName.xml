@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ws>
+	<prefix name="w" value="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<prefix name="y" value="http://mpii.de/yago/resource/"/>
+	<!-- variables in the head: the order matters:
+     the first variables should be the input variables, followed by the output variables
+     also, for the input variables the order should match the order in the URLs of the calls
+     -->
+	<headVariables>
+		<variable type="inout" name="?name"/>
+		<variable type="output" name="?artist"/>
+		<variable type="output" name="?artisid"/>
+		<variable type="output" name="?begin"/>
+		<variable type="output" name="?end"/>
+	</headVariables>
+
+
+	<definition>
+
+	</definition>
+
+
+	<call>
+		<part type="constant" value="http://musicbrainz.org/ws/1/artist/?query="/>
+		<part type="input" variable="?artist" class="singer" separator="+" />
+		<part type="constant" value="&amp;fmt=xml"/>
+	</call>
+
+	<transformation file="mb_getArtistInfoByName.xsl"/>
+
+</ws>
+
