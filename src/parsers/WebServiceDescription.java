@@ -39,7 +39,7 @@ public class WebServiceDescription {
     		List<String> urlFragments = new ArrayList<String>();
     	
         try {
-            FileInputStream file = new FileInputStream(new File(Settings.dirWithDef+webServiceName+".xml"));
+            FileInputStream file = new FileInputStream(new File(Settings.dirWithDef + webServiceName+".xml"));
                  
             DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
              

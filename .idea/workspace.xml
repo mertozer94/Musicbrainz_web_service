@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fbaa8a-0356-4e61-9c4d-15f7ef174bf5" name="Default" comment="" />
+    <list default="true" id="b6fbaa8a-0356-4e61-9c4d-15f7ef174bf5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Dynamic_Content_Managment/Main.class" afterPath="$PROJECT_DIR$/out/production/Dynamic_Content_Managment/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parsers/WebServiceDescription.java" afterPath="$PROJECT_DIR$/src/parsers/WebServiceDescription.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,19 +23,23 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1593">
-              <caret line="282" column="8" lean-forward="false" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
+            <state relative-caret-position="132">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#printResults#0;class#Main#0" expanded="false" />
+                <element signature="method#getRelevantResult#0;class#Main#0" expanded="false" />
                 <element signature="method#getArrayOfOutput#0;class#Main#0" expanded="false" />
-                <element signature="method#findMatchingHeaders#0;class#Main#0" expanded="false" />
                 <element signature="method#getNthElement#0;class#Main#0" expanded="false" />
                 <element signature="method#getJoinedElements#0;class#Main#0" expanded="false" />
+                <element signature="e#2729#2751#0" expanded="true" />
+                <element signature="e#2978#2987#0" expanded="true" />
                 <element signature="method#deleteNonMacthing#0;class#Main#0" expanded="false" />
                 <element signature="method#setFquery#0;class#Main#0" expanded="false" />
                 <element signature="method#getDelement#0;class#Main#0" expanded="false" />
                 <element signature="method#cloneTuples#0;class#Main#0" expanded="false" />
                 <element signature="method#cloneHeader#0;class#Main#0" expanded="false" />
+                <element signature="e#5047#5055#0" expanded="true" />
                 <element signature="method#addHeaders#0;class#Main#0" expanded="false" />
                 <element signature="method#extendArray#0;class#Main#0" expanded="false" />
                 <element signature="method#cartesianProduct#0;class#Main#0" expanded="false" />
@@ -43,8 +52,8 @@
       <file leaf-file-name="mb_getAlbumByArtistId.xsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+            <state relative-caret-position="220">
+              <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -53,18 +62,38 @@
       <file leaf-file-name="mb_getAlbumByArtistId.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="198">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mb_getSongByAlbumId.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.xml">
+      <file leaf-file-name="mb_getArtistInfoByName.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getArtistInfoByName.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="92" />
+            <state relative-caret-position="506">
+              <caret line="23" column="79" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServiceDescription.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parsers/WebServiceDescription.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/download/WebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2640">
+              <caret line="141" column="40" lean-forward="true" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,7 +117,21 @@
       <find>numberOfInputs</find>
       <find>output</find>
       <find>given</find>
+      <find>previousTuples</find>
+      <find>qElements</find>
+      <find>queryElements</find>
+      <find>curentHeaders</find>
+      <find>previousHeaders</find>
+      <find>getRelevantResult</find>
+      <find>newHeaders</find>
+      <find>preQueryElements</find>
     </findStrings>
+    <replaceStrings>
+      <replace>queryElements</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -105,10 +148,8 @@
         <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumsByArtistId.xml" />
         <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.fxml" />
         <option value="$PROJECT_DIR$/src/parsers/ParseResultsForWS.java" />
-        <option value="$PROJECT_DIR$/src/parsers/WebServiceDescription.java" />
         <option value="$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/call_results/arid+43bcca8b-9edc-4997-8343-122350e790bf.xml" />
         <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getArtistInfoByName.xsl" />
-        <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xml" />
         <option value="$PROJECT_DIR$/src/constants/Settings.java" />
         <option value="$PROJECT_DIR$/src/constants/Formating.java" />
         <option value="$PROJECT_DIR$/src/download/WebService.java" />
@@ -117,6 +158,9 @@
         <option value="$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/arid+197450cd-0124-4164-b723-3c22dd16494d.xml" />
         <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xsl" />
         <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.xsl" />
+        <option value="$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xml" />
+        <option value="$PROJECT_DIR$/src/parsers/WebServiceDescription.java" />
+        <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -127,6 +171,7 @@
     <option name="width" value="928" />
     <option name="height" value="1084" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -142,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,13 +215,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Functional_Programming/recfun" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../informationIntegration" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
@@ -316,28 +361,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="992" y="-4" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3632653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36230367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16765499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1708126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5234694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43141362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991913" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -346,25 +390,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="164" />
+      <option name="time" value="193" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="result" />
-        <watch expression="positions" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getArtistInfoByName/call_results/artist:Frank+Sinatra.xml" />
-    <entry file="file://$PROJECT_DIR$/src/parsers/WebServiceDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="76" column="66" lean-forward="false" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/call_results/arid+a16b9b0a-1580-4fbe-817e-06b5fcdff684.xml" />
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/reid+null.xml" />
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/date+Frank+Sinatra.xml" />
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/arid+Frank+Sinatra.xml" />
@@ -448,14 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/download/WebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="115" column="68" lean-forward="true" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/call_results/arid+43bcca8b-9edc-4997-8343-122350e790bf.xml" />
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/arid+43bcca8b-9edc-4997-8343-122350e790bf.xml" />
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/reid+a16b9b0a-1580-4fbe-817e-06b5fcdff684.xml" />
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/transf_results/arid+a16b9b0a-1580-4fbe-817e-06b5fcdff684.xml" />
@@ -482,26 +504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getArtistInfoByName.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getArtistInfoByName.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -520,56 +526,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="282" column="8" lean-forward="false" selection-start-line="282" selection-start-column="8" selection-end-line="282" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getArrayOfOutput#0;class#Main#0" expanded="false" />
-            <element signature="method#findMatchingHeaders#0;class#Main#0" expanded="false" />
-            <element signature="method#getNthElement#0;class#Main#0" expanded="false" />
-            <element signature="method#getJoinedElements#0;class#Main#0" expanded="false" />
-            <element signature="method#deleteNonMacthing#0;class#Main#0" expanded="false" />
-            <element signature="method#setFquery#0;class#Main#0" expanded="false" />
-            <element signature="method#getDelement#0;class#Main#0" expanded="false" />
-            <element signature="method#cloneTuples#0;class#Main#0" expanded="false" />
-            <element signature="method#cloneHeader#0;class#Main#0" expanded="false" />
-            <element signature="method#addHeaders#0;class#Main#0" expanded="false" />
-            <element signature="method#extendArray#0;class#Main#0" expanded="false" />
-            <element signature="method#cartesianProduct#0;class#Main#0" expanded="false" />
-            <element signature="method#setCurrentandPreList#0;class#Main#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xsl">
+    <entry file="file://$PROJECT_DIR$/src/download/WebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="141" column="40" lean-forward="true" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/call_results/arid+43bcca8b-9edc-4997-8343-122350e790bf.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WS-Evaluation/mb_getAlbumByArtistId/call_results/arid+197450cd-0124-4164-b723-3c22dd16494d.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getArtistInfoByName.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="79" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getAlbumByArtistId.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="220">
+          <caret line="10" column="114" lean-forward="false" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="114" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WS-Evaluation/ws-definitions/mb_getSongByAlbumId.xml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/parsers/WebServiceDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="92" />
+        <state relative-caret-position="286">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="313" column="15" lean-forward="false" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printResults#0;class#Main#0" expanded="false" />
+            <element signature="method#getRelevantResult#0;class#Main#0" expanded="false" />
+            <element signature="method#getArrayOfOutput#0;class#Main#0" expanded="false" />
+            <element signature="method#getNthElement#0;class#Main#0" expanded="false" />
+            <element signature="method#getJoinedElements#0;class#Main#0" expanded="false" />
+            <element signature="e#2729#2751#0" expanded="true" />
+            <element signature="e#2978#2987#0" expanded="true" />
+            <element signature="method#deleteNonMacthing#0;class#Main#0" expanded="false" />
+            <element signature="method#setFquery#0;class#Main#0" expanded="false" />
+            <element signature="method#getDelement#0;class#Main#0" expanded="false" />
+            <element signature="method#cloneTuples#0;class#Main#0" expanded="false" />
+            <element signature="method#cloneHeader#0;class#Main#0" expanded="false" />
+            <element signature="e#5047#5055#0" expanded="true" />
+            <element signature="method#addHeaders#0;class#Main#0" expanded="false" />
+            <element signature="method#extendArray#0;class#Main#0" expanded="false" />
+            <element signature="method#cartesianProduct#0;class#Main#0" expanded="false" />
+            <element signature="method#setCurrentandPreList#0;class#Main#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
